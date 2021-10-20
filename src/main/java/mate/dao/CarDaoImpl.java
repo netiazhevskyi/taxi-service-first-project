@@ -187,8 +187,7 @@ public class CarDaoImpl implements CarDao {
         int size = exceptions.size();
         String insertQuery = "DELETE FROM cars_drivers WHERE car_id = ? "
                 + "AND NOT driver_id IN ("
-                + ZERO_PLACEHOLDER + ", ?".repeat(size)
-                + ");";
+                + ZERO_PLACEHOLDER;
         try (Connection connection = ConnectionUtil.getConnection();
                 PreparedStatement deleteAllDriversExceptLinkedStatement =
                         connection.prepareStatement(insertQuery)) {
