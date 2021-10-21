@@ -1,15 +1,34 @@
-**Taxi Service**
+##**Taxi Service**
 
-This is my first web project called "Taxi Service":
-- Developed to run on Tomcat 9.0.50
-- Uses servlet technologies
-- It performs basic SQL CRUD operations along with database connection
-- Application implements user authentication based on HttpSession and filters
-  where non-authenticated users have no access to resource.
+**This is my first web project called "Taxi Service":**
 
-**Getting started:**
+- It is a very simple web application to show knowledge of Java Core, SQL, JDBC, WEB.
+- Application has simple authentication and registration features. 
+It implements user authentication based on HttpSession and filters
+where non-authenticated users have no access to resource. 
+- It is created to run on Tomcat 9.0.50. 
+- Application performs basic SQL CRUD operations along with database connection and can run both locally 
+and remotely.
+- As a user(driver), you can register and login to the website, add manufacturers and cars and bind drivers
+and cars with each other. You may view list of drivers/cars/manufacturers
+as well as delete each element from database
 
-_**To run this app locally**_
+
+**Technologies used:**
+- Java 11
+- JDBC, MySQL
+- Javax servlet API
+- JSTL, JSP
+- Tomcat 9.0.50 (to run app locally)
+
+##**Getting started:**
+
+You may view application online. Application was deployed using Heroku (container-based cloud Platform).
+Simply click [HERE](https://taxi-app-heroku-first-project.herokuapp.com)
+
+
+####To run this app locally
+
 - Fork this project to your repository
 - Use one of the "Code" options available to copy project and open it in IntelliJ IDEA
 - You will need to have installed Tomcat (version 9.0.50)
@@ -28,7 +47,3 @@ _**To run this app locally**_
 
 - Final step is to configure your project with Tomcat Local (**Make sure to have application context as "/"**)
 - Run project. Once Tomcat is running, your browser will retrieve Login page.
-
-You may also view application online. Application was deployed using Heroku (container-based cloud Platform)
-
-Simply go to this [LINK](https://taxi-app-heroku-first-project.herokuapp.com).
