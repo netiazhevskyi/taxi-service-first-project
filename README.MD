@@ -3,7 +3,7 @@
 
 **This is my first web project called "Taxi Service":**
 
-- It is a very simple web application to show knowledge of Java Core, SQL, JDBC, WEB.
+- Web application is created to show knowledge of Java Core, SQL, JDBC, WEB as a part of my study with Mate Academy.
 - Application has simple authentication and registration features. 
 It implements user authentication based on HttpSession and filters
 where non-authenticated users have no access to resource. 
@@ -14,7 +14,10 @@ and remotely.
 and cars with each other. You may view list of drivers/cars/manufacturers
 as well as delete each element from database
 
+### **Getting started:**
 
+  Click [HERE](https://taxi-app-heroku-first-project.herokuapp.com) to view application online.
+  Application was deployed using Heroku (container-based cloud Platform).
 ### **Technologies used:**
 - Java 11
 - JDBC, MySQL
@@ -22,10 +25,6 @@ as well as delete each element from database
 - JSTL, JSP
 - Tomcat 9.0.50 (to run app locally)
 
-### **Getting started:**
-
-You may view application online. Application was deployed using Heroku (container-based cloud Platform).
-Simply click [HERE](https://taxi-app-heroku-first-project.herokuapp.com)
 
 #### To run this app locally
 
@@ -47,3 +46,4 @@ Simply click [HERE](https://taxi-app-heroku-first-project.herokuapp.com)
 
 - Final step is to configure your project with Tomcat Local (**Make sure to have application context as "/"**)
 - Run project. Once Tomcat is running, your browser will retrieve Login page.
+
