@@ -27,6 +27,11 @@
             <input type="submit" name="add" form="car">
         </td>
     </tr>
+    <tr>
+        <th colspan="3">
+            <h4 style="color:red">${errorMsg}</h4>
+        </th>
+    </tr>
 </table>
 </body>
 </html>

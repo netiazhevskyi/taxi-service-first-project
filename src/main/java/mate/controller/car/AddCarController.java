@@ -1,6 +1,7 @@
 package mate.controller.car;
 
 import java.io.IOException;
+import java.util.Optional;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -26,11 +27,16 @@ public class AddCarController extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp)
-            throws IOException {
+            throws IOException, ServletException {
         String model = req.getParameter("model");
         long manufacturerId = Long.parseLong(req.getParameter("manufacturer_id"));
-        Manufacturer manufacturer = manufacturerService.get(manufacturerId);
-        Car car = new Car(model, manufacturer);
+        Optional<Manufacturer> manufacturer = manufacturerService.get(manufacturerId);
+        if (manufacturer.isEmpty()) {
+            req.setAttribute("errorMsg", "Manufacturer does not exist."
+                    + " Please create new manufacturer before adding new car");
+            req.getRequestDispatcher("/WEB-INF/views/cars/add.jsp").forward(req, resp);
+        }
+        Car car = new Car(model, manufacturer.get());
         carService.create(car);
         resp.sendRedirect("/cars/add");
     }
