@@ -13,14 +13,14 @@
     <tr>
         <th>Redirect to</th>
     </tr>
-    <tr><td><a href="${pageContext.request.contextPath}/drivers/">Display All Drivers</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/cars/current">Display Only My Cars</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/cars/">Display All Cars</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/manufacturers/">Display All Manufacturers</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/drivers/add">Create new Driver</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/cars/add">Create new Car</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/manufacturers/add">Create new Manufacturer</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/cars/drivers/add">Add Driver to Car</a></td></tr>
+    <tr><td><a href="${pageContext.request.contextPath}/drivers/"><h4 style="color:#edb749">Display All Drivers</h4></a></td></tr>
+    <tr><td><a href="${pageContext.request.contextPath}/cars/current"><h4 style="color:#edb749">Display Only My Cars</h4></a></td></tr>
+    <tr><td><a href="${pageContext.request.contextPath}/cars/"><h4 style="color:#edb749">Display All Cars</h4></a></td></tr>
+    <tr><td><a href="${pageContext.request.contextPath}/manufacturers/"><h4 style="color:#edb749">Display All Manufacturers</h4></a></td></tr>
+    <tr><td><a href="${pageContext.request.contextPath}/drivers/add"><h4 style="color:#edb749">Create new Driver</h4></a></td></tr>
+    <tr><td><a href="${pageContext.request.contextPath}/cars/add"><h4 style="color:#edb749">Create new Car</h4></a></td></tr>
+    <tr><td><a href="${pageContext.request.contextPath}/manufacturers/add"><h4 style="color:#edb749">Create new Manufacturer</h4></a></td></tr>
+    <tr><td><a href="${pageContext.request.contextPath}/cars/drivers/add"><h4 style="color:#edb749">Add Driver to Car</h4></a></td></tr>
 </table>
 </body>
 </html>
