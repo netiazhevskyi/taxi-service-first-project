@@ -1,4 +1,4 @@
-#**Taxi Service**
+## **Taxi Service**
 
 
 **This is my first web project called "Taxi Service":**
@@ -27,8 +27,7 @@ as well as delete each element from database
 You may view application online. Application was deployed using Heroku (container-based cloud Platform).
 Simply click [HERE](https://taxi-app-heroku-first-project.herokuapp.com)
 
-
-####To run this app locally
+#### To run this app locally
 
 - Fork this project to your repository
 - Use one of the "Code" options available to copy project and open it in IntelliJ IDEA
