@@ -1,4 +1,4 @@
-##**Taxi Service**
+#**Taxi Service**
 
 
 **This is my first web project called "Taxi Service":**
@@ -15,14 +15,14 @@ and cars with each other. You may view list of drivers/cars/manufacturers
 as well as delete each element from database
 
 
-**Technologies used:**
+### **Technologies used:**
 - Java 11
 - JDBC, MySQL
 - Javax servlet API
 - JSTL, JSP
 - Tomcat 9.0.50 (to run app locally)
 
-##**Getting started:**
+### **Getting started:**
 
 You may view application online. Application was deployed using Heroku (container-based cloud Platform).
 Simply click [HERE](https://taxi-app-heroku-first-project.herokuapp.com)
